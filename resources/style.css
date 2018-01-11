@@ -2,11 +2,12 @@ body {
   text-align: center;
 }
 
+
 .navbar {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
-  display: block;
+  display: block; /*Had to guess these*/
   padding-top: 20px;
 }
 
@@ -17,4 +18,29 @@ body {
   font-weight: bold;
   color: white;
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
+
+.midhead {
+  margin-top: 0;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.smhead {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.whhead {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.desctext {
+  font-family: Helvetica;
+  font-size: 14px;
 }
